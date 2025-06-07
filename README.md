@@ -72,6 +72,7 @@ https://github.com/ComSciThammasatU/2567-2-cs403-final-submission-66-2_02_wlr-r1
 
 - ถ้ามีแจ้งเตือนให้กด “Accept” หรือ “Install Missing SDK/Plugin” ให้กดตกลงทั้งหมด
 - ถ้าไม่ขึ้นอะไร ให้ไปที่เมนู File > Sync Project with Gradle Files
+- ถ้าตัว andriod มี error ให้ไปที่ file > open เลือก studioproject ที่อยู่ในไฟล์ ของโฟเดอร์ที่โหลดมา จากนั้นกด OK
 # ขั้นตอนที่ 4: รันโปรเจกต์ในเครื่อง
 ถ้าใช้ Emulator (มือถือจำลอง)
 1. ไปที่เมนู Tools > Device Manager
