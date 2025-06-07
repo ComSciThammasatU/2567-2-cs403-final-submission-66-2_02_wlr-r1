@@ -61,11 +61,14 @@ git clone https://github.com/ComSciThammasatU/2567-2-cs403-final-submission-66-2
 #  ขั้นตอนที่ 3: เปิดโปรเจกต์ใน Android Studio
 1. เปิด Android Studio
 
-2. คลิก "Open" หรือ "Open an Existing Project"
+2. คลิก "Clone repository"
 
-3. เลือกโฟลเดอร์โปรเจกต์ที่เพิ่ง clone มา
-
+3. ใส่ลิ้ง git นี้ลงไปในช่อง
+```
+https://github.com/ComSciThammasatU/2567-2-cs403-final-submission-66-2_02_wlr-r1.git
+```
 4. รอให้ Android Studio โหลดและ Sync Gradle (อาจใช้เวลาหลายนาที)
+5. ตัวโค้ดหลักจะอยู่ในหัวข้อ app > main > java และ app > main >  res > layout
 
 - ถ้ามีแจ้งเตือนให้กด “Accept” หรือ “Install Missing SDK/Plugin” ให้กดตกลงทั้งหมด
 - ถ้าไม่ขึ้นอะไร ให้ไปที่เมนู File > Sync Project with Gradle Files
