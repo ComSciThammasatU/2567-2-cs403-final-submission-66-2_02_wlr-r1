@@ -1,0 +1,9 @@
+[versions]
+androidxAppcompat = "1.6.1"
+androidxCoreKtx = "1.10.1"
+
+[libraries]
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidxAppcompat" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidxCoreKtx" }
+
+
