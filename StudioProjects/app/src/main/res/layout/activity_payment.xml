@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FADADD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ส่งข้อมูลการจ่ายเงิน"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#512DA8"
+            android:gravity="center"
+            android:paddingBottom="50dp" />
+        <EditText
+            android:id="@+id/etHouseNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/กรอก"
+            android:inputType="number"
+            android:textColorHint="#CCCCCC"
+            android:textColor="#FF000000"
+            android:background="@android:color/white"
+            android:layout_marginBottom="16dp" />
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/เลือกวัน"
+            android:focusable="false"
+            android:clickable="true" />
+
+        <EditText
+            android:id="@+id/etTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/เลือกเวลา"
+            android:focusable="false"
+            android:clickable="true" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp">
+
+            <CheckBox
+                android:id="@+id/cbTransfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/โอน"
+                android:layout_gravity="start" />
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upload_image"
+                android:backgroundTint="#D8BFD8"
+                android:textColor="#000000"
+                android:layout_marginEnd="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp">
+
+            <CheckBox
+                android:id="@+id/cbCash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/สด" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/กดส่ง"
+            android:backgroundTint="#D8BFD8"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/homepage"
+            android:backgroundTint="#A7C7E7"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_marginTop="50dp"/>
+
+    </LinearLayout>
+</ScrollView>

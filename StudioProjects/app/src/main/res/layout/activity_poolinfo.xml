@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FADADD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/หัวเรื่องข้อมูลสระว่ายน้ำ"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#512DA8"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_marginBottom="16dp"
+            android:alignmentMode="alignMargins"
+            android:rowOrderPreserved="false"
+            android:useDefaultMargins="true">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/poolpic1"
+                android:layout_margin="4dp"
+                android:background="@drawable/image_background" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/poolpic2"
+                android:layout_margin="4dp"
+                android:background="@drawable/image_background" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/poolpic3"
+                android:layout_margin="4dp"
+                android:background="@drawable/image_background" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_columnWeight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/poolpic4"
+                android:layout_margin="4dp"
+                android:background="@drawable/image_background" />
+        </GridLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ข้อความข้อมูลสระว่ายน้ำ"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#333"
+            android:background="#FFF"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="2dp" />
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/กลับไปhomepage"
+            android:backgroundTint="#A7C7E7"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp" />
+    </LinearLayout>
+</ScrollView>
